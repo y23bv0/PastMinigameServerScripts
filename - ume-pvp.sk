@@ -1,0 +1,5 @@
+on damage:
+	attacker is a player
+	victim is a player
+	if {ume.pvp} is 0:
+		cancel event
