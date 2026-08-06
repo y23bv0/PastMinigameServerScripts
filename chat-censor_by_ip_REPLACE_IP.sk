@@ -1,0 +1,6 @@
+on chat:
+	if player does not have permission "mtt.bypass":
+		replace all "IP", "IP" and "IP" and "_blank" and "twitch.tv" with " " in the message
+	if {chat.mute} is true:
+		if player does not have permission "mtt.bypass":
+			cancel event
