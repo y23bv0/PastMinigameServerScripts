@@ -13,5 +13,6 @@ Below you will see a description of different scripts and their purposes:
 - UME Scripts: These are scripts for UME, a minigame idea I worked on for two years. It includes world border changes, gamemode controls, and loot chests generation
 - Chat Censor: Censor a player by specifying the IP in the file
 - Helpers: Other scripts exist to help other scripts
+- "Replace PlayerName": Scripts labelled replace_PLAYERNAME rely on an op-ed/admin player on a server for execution. Run find-and-replace or manually replace instance of playerName with an admin player if they are expected to remain on the server
 
 Keep in mind that permissions are specific to how and where skripts were implemented. If there is demand, I will modernize scripts and make permissions more streamlined across scripts.
