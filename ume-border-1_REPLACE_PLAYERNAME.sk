@@ -1,0 +1,22 @@
+command /ume-border-1:
+	permission: ume.admin
+	trigger:
+		execute console command "/broadcast worldborder will start shrinking"
+		wait 10 ticks
+		execute console command "/broadcast please make your way to one of the two gates"
+		execute console command "/playsound minecraft:block.beacon.deactivate neutral @a"
+        
+		make player execute command "/sudo playerName worldborder set 155"
+		wait 2 ticks
+		make player execute command "/sudo playerName worldborder set 116 33"
+		wait 32 seconds
+		execute console command "/ume-close-gate1"
+		execute console command "/broadcast PVP will be enabled shortly"
+		wait 1 second
+		execute console command "/broadcast natural regeneration is off, so be careful if you choose to fight"
+		wait 1 second
+		execute console command "/broadcast you will be able to get golden apples at the next layer"
+		wait 12 seconds
+		execute console command "/pvp on"
+		wait 90 seconds
+		execute console command "/ume-border-2"

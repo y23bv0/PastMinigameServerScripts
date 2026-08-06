@@ -1,0 +1,63 @@
+command /ume-close-gate1:
+	permission: ume.admin
+	trigger:
+    
+		#beacon part 1
+		set block at location 66, 4, -22 in world "mini-event" to obsidian
+		set block at location 73, 4, -22 in world "mini-event" to obsidian
+        
+        #beacon part 2
+		set block at location 66, 4, 97 in world "mini-event" to obsidian
+		set block at location 73, 4, 97 in world "mini-event" to obsidian
+    
+		#gate 1
+		set block at location 71, 4, -21 in world "mini-event" to bedrock
+		set block at location 70, 4, -21 in world "mini-event" to bedrock
+		set block at location 69, 4, -21 in world "mini-event" to bedrock
+		set block at location 68, 4, -21 in world "mini-event" to bedrock
+        
+		set block at location 71, 5, -21 in world "mini-event" to bedrock
+		set block at location 70, 5, -21 in world "mini-event" to bedrock
+		set block at location 69, 5, -21 in world "mini-event" to bedrock
+		set block at location 68, 5, -21 in world "mini-event" to bedrock
+        
+		set block at location 71, 6, -21 in world "mini-event" to bedrock
+		set block at location 70, 6, -21 in world "mini-event" to bedrock
+		set block at location 69, 6, -21 in world "mini-event" to bedrock
+		set block at location 68, 6, -21 in world "mini-event" to bedrock
+        
+		set block at location 71, 7, -21 in world "mini-event" to bedrock
+		set block at location 70, 7, -21 in world "mini-event" to bedrock
+		set block at location 69, 7, -21 in world "mini-event" to bedrock
+		set block at location 68, 7, -21 in world "mini-event" to bedrock
+        
+		set block at location 71, 8, -21 in world "mini-event" to bedrock
+		set block at location 70, 8, -21 in world "mini-event" to bedrock
+		set block at location 69, 8, -21 in world "mini-event" to bedrock
+		set block at location 68, 8, -21 in world "mini-event" to bedrock
+        
+        #gate 2
+		set block at location 71, 4, 96 in world "mini-event" to bedrock
+		set block at location 70, 4, 96 in world "mini-event" to bedrock
+		set block at location 69, 4, 96 in world "mini-event" to bedrock
+		set block at location 68, 4, 96 in world "mini-event" to bedrock
+        
+		set block at location 71, 5, 96 in world "mini-event" to bedrock
+		set block at location 70, 5, 96 in world "mini-event" to bedrock
+		set block at location 69, 5, 96 in world "mini-event" to bedrock
+		set block at location 68, 5, 96 in world "mini-event" to bedrock
+        
+		set block at location 71, 6, 96 in world "mini-event" to bedrock
+		set block at location 70, 6, 96 in world "mini-event" to bedrock
+		set block at location 69, 6, 96 in world "mini-event" to bedrock
+		set block at location 68, 6, 96 in world "mini-event" to bedrock
+        
+		set block at location 71, 7, 96 in world "mini-event" to bedrock
+		set block at location 70, 7, 96 in world "mini-event" to bedrock
+		set block at location 69, 7, 96 in world "mini-event" to bedrock
+		set block at location 68, 7, 96 in world "mini-event" to bedrock
+        
+		set block at location 71, 8, 96 in world "mini-event" to bedrock
+		set block at location 70, 8, 96 in world "mini-event" to bedrock
+		set block at location 69, 8, 96 in world "mini-event" to bedrock
+		set block at location 68, 8, 96 in world "mini-event" to bedrock

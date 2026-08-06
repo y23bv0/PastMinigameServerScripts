@@ -1,0 +1,95 @@
+command /ume-start:
+	executable by: players
+	permission: ume.admin
+	trigger:
+    
+		set {ume.starting} to 1
+        
+		give all players 1 stick{Enchantments:[{id:"minecraft:knockback",lvl:1s}]} if the player has permission "a.ume.team"
+        
+		execute console command "/sudo not_SPVR worldborder set 500"
+		execute console command "/ume-loot-reload"
+		execute console command "/ume-close-gate1"
+		execute console command "/ume-close-gate2"
+
+		#beacon part 1
+		set block at location 66, 4, -22 in world "mini-event" to obsidian
+		set block at location 73, 4, -22 in world "mini-event" to obsidian
+        
+        #beacon part 2
+		set block at location 66, 4, 97 in world "mini-event" to obsidian
+		set block at location 73, 4, 97 in world "mini-event" to obsidian
+        
+        #teleporting part
+
+		teleport all players where [input has permission "a.ume.team"] to location 5, 4, 58 in world "mini-event"
+		teleport all players where [input has permission "b.ume.team"] to location 77, 5, 86 in world "mini-event"
+		teleport all players where [input has permission "c.ume.team"] to location 79, 4, 107 in world "mini-event"
+		teleport all players where [input has permission "d.ume.team"] to location 132, 7, 14 in world "mini-event"
+		teleport all players where [input has permission "e.ume.team"] to location 39, 5, -22 in world "mini-event"
+		teleport all players where [input has permission "f.ume.team"] to location 4, 10, -18 in world "mini-event"
+		teleport all players where [input has permission "g.ume.team"] to location 142, 12, 52 in world "mini-event"
+		teleport all players where [input has permission "h.ume.team"] to location 43, 6, 111 in world "mini-event"
+        
+		execute console command "/title @a actionbar 5"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 5 4 58"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 77 5 86"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 79 4 107"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 132 7 14"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 39 5 -22"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 4 10 -18"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 142 12 52"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 43 6 111"
+        
+		wait 20 ticks
+        
+		execute console command "/title @a actionbar 4"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 5 4 58"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 77 5 86"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 79 4 107"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 132 7 14"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 39 5 -22"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 4 10 -18"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 142 12 52"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 43 6 111"
+
+		wait 20 ticks
+        
+		execute console command "/title @a actionbar 3"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 5 4 58"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 77 5 86"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 79 4 107"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 132 7 14"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 39 5 -22"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 4 10 -18"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 142 12 52"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 43 6 111"
+        
+		wait 20 ticks
+        
+		execute console command "/title @a actionbar 2"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 5 4 58"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 77 5 86"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 79 4 107"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 132 7 14"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 39 5 -22"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 4 10 -18"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 142 12 52"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 43 6 111"
+        
+		wait 20 ticks
+        
+		execute console command "/title @a actionbar 1"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 5 4 58"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 77 5 86"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 79 4 107"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 132 7 14"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 39 5 -22"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 4 10 -18"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 142 12 52"
+		execute console command "/playsound minecraft:block.note_block.harp neutral @a 43 6 111"
+        
+		wait 5 ticks
+        
+		execute console command "/ume-unfreeze"
+		execute console command "/ume-pvptimer"

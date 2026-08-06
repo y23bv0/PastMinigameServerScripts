@@ -1,0 +1,5 @@
+command /ume-party <player> [<text>]:
+	executable by: players
+	permission: mtt.admin
+	trigger:
+		execute console command "/lp user %arg-1% permission set %arg-2%.ume.team"

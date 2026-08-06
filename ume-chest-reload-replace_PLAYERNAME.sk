@@ -1,0 +1,626 @@
+command /ume-chest-reload:
+	permission: mtt.admin
+	trigger:
+    
+    	#chest-lvl1
+		set {ume-1-1} to a random integer from 1 to 6
+		set {ume-1-2} to a random integer from 1 to 6
+		set {ume-1-3} to a random integer from 1 to 6
+		set {ume-1-4} to a random integer from 1 to 6
+		set {ume-1-5} to a random integer from 1 to 6
+		set {ume-1-6} to a random integer from 1 to 6
+		set {ume-1-7} to a random integer from 1 to 6
+		set {ume-1-8} to a random integer from 1 to 6
+		set {ume-1-9} to a random integer from 1 to 6
+		set {ume-1-10} to a random integer from 1 to 6
+
+		#chest-lvl2
+		set {ume-2-1} to a random integer from 1 to 6
+		set {ume-2-2} to a random integer from 1 to 6
+		set {ume-2-3} to a random integer from 1 to 6
+		set {ume-2-4} to a random integer from 1 to 6
+		set {ume-2-5} to a random integer from 1 to 6
+		set {ume-2-6} to a random integer from 1 to 6
+		set {ume-2-7} to a random integer from 1 to 6
+		set {ume-2-8} to a random integer from 1 to 6
+		set {ume-2-9} to a random integer from 1 to 6
+
+		#chest-lvl3
+		set {ume-3-1} to a random integer from 1 to 8
+		set {ume-3-2} to a random integer from 1 to 8
+		set {ume-3-3} to a random integer from 1 to 8
+		set {ume-3-4} to a random integer from 1 to 8
+		set {ume-3-5} to a random integer from 1 to 8
+		set {ume-3-6} to a random integer from 1 to 8
+		set {ume-3-7} to a random integer from 1 to 8
+		set {ume-3-OP} to a random integer from 1 to 7
+
+#PART1
+
+        #chest 1-1
+        
+		if {ume-1-1} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 -4 8 -1"
+			
+		if {ume-1-1} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 -4 8 -1"
+			
+		if {ume-1-1} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 -4 8 -1"
+			
+		if {ume-1-1} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 -4 8 -1"
+	
+		if {ume-1-1} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 -4 8 -1"
+			
+		if {ume-1-1} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 -4 8 -1"
+        
+        #chest 1-2
+        
+		if {ume-1-2} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 5 4 49"
+			
+		if {ume-1-2} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 5 4 49"
+			
+		if {ume-1-2} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 5 4 49"
+			
+		if {ume-1-2} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 5 4 49"
+	
+		if {ume-1-2} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 5 4 49"
+			
+		if {ume-1-2} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 5 4 49"
+
+        #chest 1-3
+        
+		if {ume-1-3} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 -7 12 107"
+			
+		if {ume-1-3} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 -7 12 107"
+			
+		if {ume-1-3} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 -7 12 107"
+			
+		if {ume-1-3} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 -7 12 107"
+	
+		if {ume-1-3} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 -7 12 107"
+			
+		if {ume-1-3} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 -7 12 107"
+
+        #chest 1-4
+        
+		if {ume-1-4} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 54 8 101"
+			
+		if {ume-1-4} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 54 8 101"
+			
+		if {ume-1-4} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 54 8 101"
+			
+		if {ume-1-4} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 54 8 101"
+	
+		if {ume-1-4} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 54 8 101"
+			
+		if {ume-1-4} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 54 8 101"
+			
+		#chest 1-5
+        
+		if {ume-1-5} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 78 8 104"
+			
+		if {ume-1-5} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 78 8 104"
+			
+		if {ume-1-5} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 78 8 104"
+			
+		if {ume-1-5} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 78 8 104"
+	
+		if {ume-1-5} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 78 8 104"
+			
+		if {ume-1-5} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 78 8 104"
+
+		#chest 1-6
+        
+		if {ume-1-6} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 137 8 114"
+			
+		if {ume-1-6} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 137 8 114"
+			
+		if {ume-1-6} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 137 8 114"
+			
+		if {ume-1-6} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 137 8 114"
+	
+		if {ume-1-6} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 137 8 114"
+			
+		if {ume-1-6} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 137 8 114"
+
+		#chest 1-7
+        
+		if {ume-1-7} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 139 8 30"
+			
+		if {ume-1-7} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 139 8 30"
+			
+		if {ume-1-7} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 139 8 30"
+			
+		if {ume-1-7} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 139 8 30"
+	
+		if {ume-1-7} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 139 8 30"
+			
+		if {ume-1-7} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 139 8 30"
+
+		#chest 1-8
+        
+		if {ume-1-8} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 134 4 -14"
+			
+		if {ume-1-8} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 134 4 -14"
+			
+		if {ume-1-8} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 134 4 -14"
+			
+		if {ume-1-8} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 134 4 -14"
+	
+		if {ume-1-8} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 134 4 -14"
+			
+		if {ume-1-8} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 134 4 -14"
+
+		#chest 1-9
+        
+		if {ume-1-9} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 61 5 -33"
+			
+		if {ume-1-9} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 61 5 -33"
+			
+		if {ume-1-9} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 61 5 -33"
+			
+		if {ume-1-9} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 61 5 -33"
+	
+		if {ume-1-9} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 61 5 -33"
+			
+		if {ume-1-9} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 61 5 -33"
+
+		#chest 1-10
+        
+		if {ume-1-10} is 1:
+			execute console command "/sudo playerName clone -27 15 53 -27 15 53 2 15 -38"
+			
+		if {ume-1-10} is 2:
+			execute console command "/sudo playerName clone -27 15 51 -27 15 51 2 15 -38"
+			
+		if {ume-1-10} is 3:
+			execute console command "/sudo playerName clone -27 15 49 -27 15 49 2 15 -38"
+			
+		if {ume-1-10} is 4:
+			execute console command "/sudo playerName clone -29 15 53 -29 15 53 2 15 -38"
+	
+		if {ume-1-10} is 5:
+			execute console command "/sudo playerName clone -29 15 51 -29 15 51 2 15 -38"
+			
+		if {ume-1-10} is 6:
+			execute console command "/sudo playerName clone -29 15 49 -29 15 49 2 15 -38"
+			
+#PART2
+
+        #chest 2-1
+        
+		if {ume-2-1} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 25 4 22"
+			
+		if {ume-2-1} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 25 4 22"
+			
+		if {ume-2-1} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 25 4 22"
+			
+		if {ume-2-1} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 25 4 22"
+	
+		if {ume-2-1} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 25 4 22"
+			
+		if {ume-2-1} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 25 4 22"
+        
+        #chest 2-2
+        
+		if {ume-2-2} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 17 5 62"
+			
+		if {ume-2-2} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 17 5 62"
+			
+		if {ume-2-2} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 17 5 62"
+			
+		if {ume-2-2} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 17 5 62"
+	
+		if {ume-2-2} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 17 5 62"
+			
+		if {ume-2-2} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 17 5 62"
+
+        #chest 2-3
+        
+		if {ume-2-3} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 43 9 92"
+			
+		if {ume-2-3} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 43 9 92"
+			
+		if {ume-2-3} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 43 9 92"
+			
+		if {ume-2-3} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 43 9 92"
+	
+		if {ume-2-3} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 43 9 92"
+			
+		if {ume-2-3} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 43 9 92"
+
+        #chest 2-4
+        
+		if {ume-2-4} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 93 5 84"
+			
+		if {ume-2-4} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 93 5 84"
+			
+		if {ume-2-4} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 93 5 84"
+			
+		if {ume-2-4} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 93 5 84"
+	
+		if {ume-2-4} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 93 5 84"
+			
+		if {ume-2-4} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 93 5 84"
+			
+		#chest 2-5
+        
+		if {ume-2-5} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 115 10 80"
+			
+		if {ume-2-5} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 115 10 80"
+			
+		if {ume-2-5} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 115 10 80"
+			
+		if {ume-2-5} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 115 10 80"
+	
+		if {ume-2-5} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 115 10 80"
+			
+		if {ume-2-5} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 115 10 80"
+
+		#chest 2-6
+        
+		if {ume-2-6} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 114 4 42"
+			
+		if {ume-2-6} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 114 4 42"
+			
+		if {ume-2-6} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 114 4 42"
+			
+		if {ume-2-6} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 114 4 42"
+	
+		if {ume-2-6} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 114 4 42"
+			
+		if {ume-2-6} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 114 4 42"
+
+		#chest 2-7
+        
+		if {ume-2-7} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 81 4 -3"
+			
+		if {ume-2-7} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 81 4 -3"
+			
+		if {ume-2-7} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 81 4 -3"
+			
+		if {ume-2-7} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 81 4 -3"
+	
+		if {ume-2-7} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 81 4 -3"
+			
+		if {ume-2-7} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 81 4 -3"
+
+		#chest 2-8
+        
+		if {ume-2-8} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 40 4 -4"
+			
+		if {ume-2-8} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 40 4 -4"
+			
+		if {ume-2-8} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 40 4 -4"
+			
+		if {ume-2-8} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 40 4 -4"
+	
+		if {ume-2-8} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 40 4 -4"
+			
+		if {ume-2-8} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 40 4 -4"
+
+		#chest 2-9
+        
+		if {ume-2-9} is 1:
+			execute console command "/sudo playerName clone -35 15 53 -35 15 53 40 4 -9"
+			
+		if {ume-2-9} is 2:
+			execute console command "/sudo playerName clone -35 15 51 -35 15 51 40 4 -9"
+			
+		if {ume-2-9} is 3:
+			execute console command "/sudo playerName clone -35 15 49 -35 15 49 40 4 -9"
+			
+		if {ume-2-9} is 4:
+			execute console command "/sudo playerName clone -37 15 53 -37 15 53 40 4 -9"
+	
+		if {ume-2-9} is 5:
+			execute console command "/sudo playerName clone -37 15 51 -37 15 51 40 4 -9"
+			
+		if {ume-2-9} is 6:
+			execute console command "/sudo playerName clone -37 15 49 -37 15 49 40 4 -9"
+			
+#PART3
+        #chest 3-1
+        
+		if {ume-3-1} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 39 4 7"
+			
+		if {ume-3-1} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 39 4 7"
+			
+		if {ume-3-1} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 39 4 7"
+			
+		if {ume-3-1} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 39 4 7"
+	
+		if {ume-3-1} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 39 4 7"
+			
+		if {ume-3-1} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 39 4 7"
+			
+		if {ume-3-1} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 39 4 7"
+			
+		if {ume-3-1} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 39 4 7"
+        
+        #chest 3-2
+        
+		if {ume-3-2} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 51 4 40"
+			
+		if {ume-3-2} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 51 4 40"
+			
+		if {ume-3-2} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 51 4 40"
+			
+		if {ume-3-2} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 51 4 40"
+	
+		if {ume-3-2} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 51 4 40"
+			
+		if {ume-3-2} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 51 4 40"
+			
+		if {ume-3-2} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 51 4 40"
+			
+		if {ume-3-2} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 51 4 40"
+			
+        #chest 3-3
+        
+		if {ume-3-3} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 44 4 59"
+			
+		if {ume-3-3} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 44 4 59"
+			
+		if {ume-3-3} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 44 4 59"
+			
+		if {ume-3-3} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 44 4 59"
+	
+		if {ume-3-3} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 44 4 59"
+			
+		if {ume-3-3} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 44 4 59"
+			
+		if {ume-3-3} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 44 4 59"
+			
+		if {ume-3-3} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 44 4 59"
+
+        #chest 3-4
+        
+		if {ume-3-4} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 102 4 72"
+			
+		if {ume-3-4} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 102 4 72"
+			
+		if {ume-3-4} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 102 4 72"
+			
+		if {ume-3-4} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 102 4 72"
+	
+		if {ume-3-4} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 102 4 72"
+			
+		if {ume-3-4} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 102 4 72"
+			
+		if {ume-3-4} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 102 4 72"
+			
+		if {ume-3-4} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 102 4 72"
+
+		#chest 3-5
+        
+		if {ume-3-5} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 92 7 45"
+			
+		if {ume-3-5} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 92 7 45"
+			
+		if {ume-3-5} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 92 7 45"
+			
+		if {ume-3-5} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 92 7 45"
+	
+		if {ume-3-5} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 92 7 45"
+			
+		if {ume-3-5} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 92 7 45"
+			
+		if {ume-3-5} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 92 7 45"
+			
+		if {ume-3-5} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 92 7 45"
+
+		#chest 3-6
+        
+		if {ume-3-6} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 85 5 26"
+			
+		if {ume-3-6} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 85 5 26"
+			
+		if {ume-3-6} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 85 5 26"
+			
+		if {ume-3-6} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 85 5 26"
+	
+		if {ume-3-6} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 85 5 26"
+			
+		if {ume-3-6} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 85 5 26"
+			
+		if {ume-3-6} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 85 5 26"
+			
+		if {ume-3-6} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 85 5 26"
+
+		#chest 3-7
+        
+		if {ume-3-7} is 1:
+			execute console command "/sudo playerName clone -43 15 55 -43 15 55 96 4 5"
+			
+		if {ume-3-7} is 2:
+			execute console command "/sudo playerName clone -43 15 53 -43 15 53 96 4 5"
+			
+		if {ume-3-7} is 3:
+			execute console command "/sudo playerName clone -43 15 51 -43 15 51 96 4 5"
+			
+		if {ume-3-7} is 4:
+			execute console command "/sudo playerName clone -43 15 49 -43 15 49 96 4 5"
+	
+		if {ume-3-7} is 5:
+			execute console command "/sudo playerName clone -43 15 47 -43 15 47 96 4 5"
+			
+		if {ume-3-7} is 6:
+			execute console command "/sudo playerName clone -45 15 53 -45 15 53 96 4 5"
+			
+		if {ume-3-7} is 7:
+			execute console command "/sudo playerName clone -45 15 51 -45 15 51 96 4 5"
+			
+		if {ume-3-7} is 8:
+			execute console command "/sudo playerName clone -45 15 49 -45 15 49 96 4 5"
+
+        #chest OP
+        
+		if {ume-ume-3-OP} is 1:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 39 4 7"
+			
+		if {ume-ume-3-OP} is 2:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 51 4 40"
+			
+		if {ume-ume-3-OP} is 3:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 44 4 59"
+			
+		if {ume-ume-3-OP} is 4:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 102 4 72"
+	
+		if {ume-ume-3-OP} is 5:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 92 7 45"
+			
+		if {ume-ume-3-OP} is 6:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 85 5 26"
+			
+		if {ume-ume-3-OP} is 7:
+			execute console command "/sudo playerName clone -49 15 51 -49 15 51 96 4 5"

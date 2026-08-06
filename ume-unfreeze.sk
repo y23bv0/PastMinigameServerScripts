@@ -1,0 +1,4 @@
+command /ume-unfreeze:
+	permission: ume.admin
+	trigger:
+		set {ume.starting} to 0

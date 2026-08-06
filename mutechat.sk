@@ -1,0 +1,5 @@
+command /mutechat:
+	executable by: players
+	permission: mtt.admin
+	trigger:
+		set {chat.mute} to true

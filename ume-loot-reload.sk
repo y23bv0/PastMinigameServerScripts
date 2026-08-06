@@ -1,0 +1,5 @@
+command /ume-loot-reload:
+	permission: mtt.admin
+	trigger:
+		execute console command "/ume-chest-reload"
+		execute console command "/ume-barrel-reload"

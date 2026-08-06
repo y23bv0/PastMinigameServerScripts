@@ -1,0 +1,3 @@
+on any move:
+	if {ume.starting} is 1:
+		cancel event

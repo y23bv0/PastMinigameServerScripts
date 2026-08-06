@@ -1,0 +1,5 @@
+command /pvp-enable:
+	executable by: players
+	permission: ume.admin
+	trigger:
+		enable PvP

@@ -1,0 +1,10 @@
+command /ume-border-3:
+	permission: ume.admin
+	trigger:
+		make player execute command "/worldborder set 76"
+		wait 2 ticks
+		make player execute command "/worldborder set 55 8"
+		wait 8 seconds
+		execute console command "/ume-close-gate2"
+		wait 
+		execute console command "/ume-border-2"

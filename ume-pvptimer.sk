@@ -1,0 +1,15 @@
+command /ume-pvptimer:
+	permission: ume.admin
+	trigger:
+    	
+		execute console command "/broadcast You have 40 seconds to gather resources!"
+        
+		wait 40 seconds
+		execute console command "/ume-open-gate1"
+        
+        
+		execute console command "/broadcast The First Gate Has Been Opened"
+		wait 10 ticks
+		execute console command "/broadcast You have 32 seconds to reach the gates"
+
+		execute console command "/ume-border-1"

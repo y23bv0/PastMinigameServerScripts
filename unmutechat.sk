@@ -1,0 +1,5 @@
+command /unmutechat:
+	executable by: players
+	permission: mtt.admin
+	trigger:
+		set {chat.mute} to false
