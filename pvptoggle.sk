@@ -1,0 +1,11 @@
+command /pvp <text>:
+	permission: pvp.toggle
+	description: Set PvP status.
+	usage: /pvp <on:off>
+	trigger:
+		if arg 1 is "on":
+			broadcast "&2PvP is now &4ON&2!"
+			enable PvP
+		if arg 1 is "off":
+			broadcast "&2PvP is now &4OFF&2!"
+			disable PvP
