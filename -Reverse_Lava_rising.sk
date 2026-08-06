@@ -1,0 +1,18 @@
+command /startpoggers:
+	trigger:
+		execute console command "minecraft:tp @a 0 80 0"
+		execute console command "minecraft:effect give @a minecraft:resistance 10 100"
+		execute player command "worldborder center ~ ~"
+		execute console command "worldborder set 183"
+		execute console command "gamerule doMobSpawning false"
+		execute console command "time set day"
+		broadcast "6cLava will now begin to fall. &c&lGet ready for a lag spike."
+		wait 4 seconds
+		execute player command "fill -90 255 90 90 255 -90 lava"
+
+on block physics:
+	block is not air or lava
+	set {_loc} to location at X-location of event-block, Y-location of event-block, Z-location of event-block in world of event-block
+	if block above {_loc} is lava:
+		wait 3 ticks
+		set event-block to air
